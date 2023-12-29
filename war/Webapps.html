@@ -1,0 +1,141 @@
+<!doctype html>
+	
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="Webapps.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Puzzle Game</title>
+    
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="webapps/webapps.nocache.js"></script>
+  </head>
+  
+  
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  	<body id="body">
+	
+	<br>
+	<div id="main">
+		<div id="loginMenu" align="center">
+			<h1 id="loginTitle">FCPuzzle</h1>
+			    <span>
+			        <span id="username"></span> 
+			        <span id="usernameField"></span>       
+			    </span>
+			    <br>
+			    <br>
+			    <span>
+			    	<span id="loginButtonField"></span>
+			    </span>
+			    <br>
+			    <span id="loginErro"></span>
+		</div>
+		
+		<div id="mainMenu" align="center">
+			<h1 id="mainTitle">FCPuzzle</h1>	
+		</div>
+		
+		
+		<div id="createGameMenu" align="center">
+			<div id="back1" align="right"></div>
+			<h1 class="title">FCPuzzle</h1>
+			<table>
+				<tr>
+					<td id="gameName"></td>
+					<td id="gameNameField"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td id="gamePassword"></td>
+					<td id="gamePasswordField"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td id="image"></td>
+					<td id="imageField"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td id="cuttingDimension"></td>
+					<td id="cuttingDimensionField"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td id="cuttingShape"></td>
+					<td id="cuttingShapeField"></td>
+				</tr>
+			</table>
+			<span id="createErro"></span>
+		</div>
+		
+		<div id="joinGameMenu" align="center">
+			<div id="back2" align="right"></div>
+			<h1 class="title">FCPuzzle</h1>
+			<table>
+				<tr>
+					<td id="joinGameName"></td>
+					<td id="joinGameNameField"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td id="joinGamePassword"></td>
+					<td id="joinGamePasswordField"></td>
+				</tr>
+			</table>
+			<span id="loginErro2"></span>
+		</div>
+		
+		
+		<div id="puzzleMenu">
+			<span id="settings"></span> 
+			<span id="exit"></span>
+			<h1 id="puzzleTitle">FCPuzzle</h1>
+			<div id="players" style="width:100px; height:400px;float:left;"></div>
+			<div id="puzzleSpace" style="border-style:inset;width: 690px;
+				height: 400px;margin: auto;"></div>
+			<div id="settingsSpace">
+				<span id="exitSettings" style="float: right;"></span>
+				<h3>Settings (isn`t working)</h3>
+				<table>
+					<tr>
+						<td id="settingsImage"></td>
+						<td id="settingsImageField"></td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td id="settingsCuttingDimension"></td>
+						<td id="settingsCuttingDimensionField"></td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td id="settingsCuttingShape"></td>
+						<td id="settingsCuttingShapeField"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+  	</body>
+</html>

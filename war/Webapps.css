@@ -1,0 +1,68 @@
+/** Add css rules here for your application. */
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+/** Example rules used by the template application (remove for your app) */
+#settingsSpace {
+	background-color: gray;
+	width: 600px;
+	height: 350px;
+	border-block: black;
+	border-style: outset;
+	border-width: 10px;
+	margin: auto;
+	position: absolute;
+	top: 150px;
+	left: 30%;
+	display: none;
+	text-align:center;
+}
+h1 {
+  font-weight: bold;
+  font-family: 'Squada One', cursive;
+  color: rgb(0, 0, 255);
+  text-align: center;
+}
+#loginTitle {
+  margin: 75px 0px 70px;
+}
+#mainTitle {
+	margin: 75px 0px 40px;
+}
+#puzzleTitle{
+	font-size:8em;
+	margin-top:-0px;
+	margin-bottom:20px;
+	margin:auto;
+}
+.title{
+	font-size:8em;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+#body {
+	background-image:url(https://i.pinimg.com/originals/09/2c/b6/092cb66e651fdd123b4bf424e5641f0e.jpg);
+}
+#main {
+	background-color: white;
+	width: 900px;
+	margin: auto;
+	height: 600px;
+	border-block: black;
+	border-style: outset;
+	border-width: 10px;
+}
+#settingsdp {
+	margin: 10px 0px 0px;
+}
+#loginErro{
+	color: red;
+}
+#createErro{
+	color: red;
+}
+#exit{
+	float: right;
+}
+tr {
+	height:10px;
+}

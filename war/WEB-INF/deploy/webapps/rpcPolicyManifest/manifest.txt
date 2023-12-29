@@ -1,0 +1,3 @@
+# Module webapps
+# RPC service class, partial path of RPC policy file
+mpjp.client.ManagerService, FA9F4E2B0DB5F666100E67FAD23E89F8.gwt.rpc
